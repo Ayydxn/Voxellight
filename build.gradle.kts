@@ -34,6 +34,10 @@ dependencies {
 
     // Import all local libraries including the Ultralight bindings
     implementation(fileTree("libs") { include("*.jar") })
+
+    // Utility Libraries
+    implementation("org.tukaani:xz:1.11") // Used by Apache Commons Compress
+    include("org.tukaani:xz:1.11")
 }
 
 tasks {

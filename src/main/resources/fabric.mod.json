@@ -15,6 +15,9 @@
 	"icon": "assets/${id}/${icon_file}",
 	"environment": "*",
 	"entrypoints": {
+		"preLaunch": [
+			"com.ayydxn.voxellight.VoxelleightPreLaunchEntrypoint"
+		],
 		"client": [
 			"com.ayydxn.voxellight.VoxellightClientMod"
 		]
